@@ -2,17 +2,20 @@
 
 # Inleiding
 
-Reumatoïde artritis (RA) is een chronische auto-immuunziekte die wordt gekenmerkt door langdurige ontsteking van de synoviale gewrichten. Deze ontsteking leidt uiteindelijk tot kraakbeenafbraak, boterosie en verlies van gewrichtsfunctie. Binnen het synovium spelen verschillende immuuncellen, waaronder T-cellen, B-cellen, macrofagen en neutrofielen, een belangrijke rol bij het onderhouden van de inflammatoire respons.
+Reumatoïde artritis (RA) is een chronische auto-immuunziekte die wordt gekenmerkt door langdurige ontsteking van de synoviale gewrichten. Deze ontsteking leidt uiteindelijk tot kraakbeenafbraak, boterosie en verlies van gewrichtsfunctie. Binnen het synovium spelen verschillende immuuncellen, waaronder T-cellen, B-cellen, macrofagen en neutrofielen, een belangrijke rol bij het onderhouden van de inflammatoire respons (Wright et al., 2021).
 
-Cytokines en chemokines zijn essentiële regulatoren van deze immuunreacties. Vooral chemokines uit de CXC-familie, zoals CXCL1, CXCL8 en CXCL13, zijn sterk betrokken bij immuuncelrekrutering en inflammatie binnen RA-weefsel. Deze chemokines binden aan receptoren zoals CXCR1, CXCR2, CXCR3 en CXCR5, waardoor immuuncellen naar ontstoken gewrichten worden aangetrokken. Verhoogde expressie van deze pathways wordt geassocieerd met ziekteprogressie, chronische inflammatie en gewrichtsschade bij RA-patiënten.
+Cytokines en chemokines vormen essentiële regulatoren van deze immuunreacties. Vooral chemokines uit de CXC-familie, zoals CXCL1, CXCL8, CXCL10 en CXCL13, zijn sterk betrokken bij immuuncelrekrutering en inflammatie binnen RA-weefsel. Deze chemokines binden aan receptoren zoals CXCR1, CXCR2, CXCR3 en CXCR5, waardoor immuuncellen naar ontstoken gewrichten worden aangetrokken. Verhoogde expressie van deze pathways wordt geassocieerd met ziekteprogressie, chronische inflammatie en gewrichtsschade bij RA-patiënten (Murayama et al., 2023).
+
+Daarnaast zijn verschillende CXCL-chemokines beschreven als potentiële biomarkers voor ziekteactiviteit en complicaties bij RA. Zo wordt verhoogde expressie van CXCL10 geassocieerd met inflammatoire activiteit en interstitiële longaandoeningen bij patiënten met reumatoïde artritis (Makarem et al., 2024). Ook cytokineprofilering laat zien dat chemokine- en cytokinesignalering belangrijke potentiële therapeutische targets vormen binnen RA-pathologie (Khandia et al., 2025).
 
 RNA-sequencing (RNA-seq) maakt het mogelijk om genexpressie op grote schaal te analyseren en verschillen tussen gezonde en zieke weefsels te identificeren. Met behulp van differential expression analyse kunnen genen en pathways worden opgespoord die betrokken zijn bij ziekteprocessen. Daarnaast kunnen GO- en KEGG-pathway analyses inzicht geven in de biologische functies en signaalroutes die geassocieerd zijn met differentieel geëxpresseerde genen.
 
-In dit onderzoek werd RNA-seq analyse uitgevoerd op samples van gezonde controles en patiënten met reumatoïde artritis. De focus van het onderzoek ligt op cytokine- en chemokinesignalering binnen inflammatoire pathways. Hierbij werd specifiek gekeken naar de rol van chemokines uit de CXC-familie en hun receptoren binnen de pathogenese van reumatoïde artritis.
+In dit onderzoek werd RNA-seq analyse uitgevoerd op publieke datasets afkomstig uit een eerdere studie van Platzer et al. (2019), waarin genexpressiepatronen bij reumatoïde artritis werden onderzocht. De focus van dit onderzoek ligt op cytokine- en chemokinesignalering binnen inflammatoire pathways. Hierbij werd specifiek gekeken naar de rol van chemokines uit de CXC-familie en hun receptoren binnen de pathogenese van reumatoïde artritis.
 
 ## Doelstelling
 
 Het doel van dit onderzoek is het identificeren van differentieel geëxpresseerde genen en verrijkte biologische pathways bij reumatoïde artritis met behulp van RNA-seq analyse. Hierbij ligt de nadruk op cytokine-cytokine receptor interacties en chemokine-gemedieerde immuuncelrekrutering.
+
 
 # Materialen en Methoden
 
