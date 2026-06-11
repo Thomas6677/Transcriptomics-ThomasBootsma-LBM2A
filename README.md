@@ -86,7 +86,7 @@ Om biologische processen te identificeren die verrijkt waren binnen de different
 De analyse liet sterke verrijking zien van immuun- en ontstekingsgerelateerde processen, waaronder immuunrespons, leukocytactivatie, cytokinesignalering en immuuncelmigratie. Deze resultaten suggereren verhoogde activatie van pathways die betrokken zijn bij chronische inflammatie en immuunactivatie binnen RA-weefsel, de resultaten zijn gevisualiseerd in figuur 2.
 ![GO ANALYSE](Afbeeldingen/Rplot.png)
 
-*Figuur 2. GO ANALYSE gevisluariseerd. Hoe groter de stip, deste meer het voorkomt. Hoe donkerder de stip deste meer significant verschil gevonden is *
+*_Figuur 2. GO ANALYSE gevisluariseerd. Hoe groter de stip, deste meer het voorkomt. Hoe donkerder de stip deste meer significant verschil gevonden is_ *
 
 ---
 
