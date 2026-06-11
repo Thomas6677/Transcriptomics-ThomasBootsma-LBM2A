@@ -122,6 +122,17 @@ De resultaten suggereren dat zowel innate als adaptive immune responses sterk ge
 
 Daarnaast ondersteunen verhoogde expressieniveaus van inflammatoire cytokines en Toll-like receptor signaling pathways het bestaan van een sterk pro-inflammatoir micro-omgeving binnen RA-weefsel. Deze bevindingen komen overeen met bestaande literatuur waarin chemokines en cytokines worden beschreven als belangrijke regulatoren van RA-pathologie en potentiële therapeutische targets.
 
+# Conclusie
+
+In dit onderzoek werd RNA-seq analyse gebruikt om verschillen in genexpressie tussen reumatoïde artritis (RA) samples en gezonde controles te onderzoeken. De differential expression analyse liet een groot aantal significant differentieel geëxpresseerde genen zien die betrokken zijn bij inflammatie, immuunresponsen en cytokinesignalering.
+
+GO- en KEGG enrichment analyses toonden sterke verrijking van immuun- en ontstekingsgerelateerde pathways, waaronder de Rheumatoid Arthritis pathway, de Cytokine-cytokine receptor interaction pathway en de Toll-like receptor signaling pathway. Binnen deze pathways werd vooral sterke upregulatie gevonden van meerdere chemokines uit de CXC-familie, waaronder CXCL1, CXCL2, CXCL5, CXCL8, CXCL10 en CXCL13.
+
+Daarnaast werden verhoogde expressieniveaus gevonden van de receptoren CXCR1, CXCR2, CXCR3 en CXCR5. Deze resultaten wijzen op verhoogde activatie van chemokine-gemedieerde immuuncelrekrutering binnen RA-weefsel. Vooral de CXCL–CXCR signaling as lijkt een belangrijke rol te spelen bij neutrofielmigratie, T-cel activatie en chronische inflammatie binnen het synovium.
+
+De resultaten van dit onderzoek komen overeen met bestaande literatuur waarin chemokines en cytokines worden beschreven als belangrijke regulatoren van RA-pathologie en potentiële therapeutische targets. Met name de verhoogde expressie van CXCL8–CXCR2 en CXCL13–CXCR5 signaling suggereert dat deze pathways mogelijk bijdragen aan ziekteprogressie en chronische ontsteking bij reumatoïde artritis.
+
+Samenvattend laat deze transcriptomische analyse zien dat chemokine- en cytokinesignalering sterk geactiveerd zijn binnen RA-weefsel en waarschijnlijk een centrale rol spelen in de pathogenese van reumatoïde artritis.
 
 
 # Bronnen
