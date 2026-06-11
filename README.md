@@ -75,7 +75,7 @@ Om verschillen in genexpressie tussen reumatoïde artritis (RA) samples en gezon
 
 *Figuur 1. Volcano plot van differentieel geëxpresseerde genen tussen reumatoïde artritis samples en gezonde controles.*
 
-De analyse liet een groot aantal significant differentieel geëxpresseerde genen zien. Meerdere van deze genen waren betrokken bij immuunresponsen, inflammatoire processen en cytokinesignalering.
+De analyse liet een groot aantal significant differentieel geëxpresseerde genen zien. Om beter te kunnen zien welke groepen genen en biologische processen omhoog geruguleerd of omlaag gerugeleert is er een GO ANALYSE uitgevoerd.
 
 ---
 
