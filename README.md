@@ -69,7 +69,7 @@ Alle analyses werden uitgevoerd in R. Hierbij werden onder andere de volgende pa
 
 ## Differential expression analyse
 
-Om verschillen in genexpressie tussen reumatoïde artritis (RA) samples en gezonde controles te onderzoeken, werd differential expression analyse uitgevoerd met DESeq2. Genen werden als significant beschouwd wanneer zij voldeden aan een adjusted p-value kleiner dan 0.05 en een absolute log2FoldChange groter dan 1. De resultaten werden gevisualiseerd met behulp van een volcano plot, waarbij upgereguleerde genen in rood en downgereguleerde genen in blauw zijn weergegeven.
+Om verschillen in genexpressie tussen reumatoïde artritis (RA) samples en gezonde controles te onderzoeken, werd differential expression analyse uitgevoerd met DESeq2. Genen werden als significant beschouwd wanneer zij voldeden aan een adjusted p-value kleiner dan 0.05 en een absolute log2FoldChange groter dan 1. De resultaten werden gevisualiseerd met behulp van een volcano plot, waarbij upgereguleerde genen in rood en downgereguleerde genen ook in het rood zijn weergegeven.
 
 ![Volcano plot](Afbeeldingen/VolcanoplotTRANSCRIPTT.png)
 
