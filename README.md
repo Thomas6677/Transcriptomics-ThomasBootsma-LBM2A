@@ -28,7 +28,7 @@ De differential expression analyse liet een groot aantal significant differentie
 GO enrichment analyse toonde sterke verrijking van immuun- en ontstekingsgerelateerde processen, waaronder cytokinesignalering, leukocytactivatie en immuuncelmigratie.
 
 <p align="center">
-  <img src="Afbeeldingen/GO_ANALYSE.png" width="700">
+  <img src="Afbeeldingen/Rplot.png" width="700">
 </p>
 
 *Figuur 2. Visualisatie van de GO enrichment analyse. Grotere stippen vertegenwoordigen processen waarin meer genen betrokken zijn. Donkerdere kleuren geven een hogere significantie weer.*
