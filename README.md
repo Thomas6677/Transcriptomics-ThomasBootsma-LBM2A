@@ -1,19 +1,20 @@
-# Transcriptomische analyse van reumatoïde artritis laat sterke activatie van chemokine- en cytokinesignalering zien
-
+# Transcriptomische analyse van chemokine-signaling pathways bij reumatoïde artritis
 
 ## Inleiding
 
-Reumatoïde artritis (RA) is een chronische auto-immuunziekte die wordt gekenmerkt door langdurige ontsteking van synoviale gewrichten. Hierbij spelen verschillende immuuncellen, waaronder neutrofielen, T-cellen en B-cellen, een belangrijke rol in het onderhouden van inflammatie en gewrichtsschade (Wright et al., 2021). Chemokines en cytokines reguleren deze immuunreacties en zijn sterk betrokken bij immuuncelrekrutering binnen RA-weefsel.
+Reumatoïde artritis (RA) is een chronische auto-immuunziekte die wordt gekenmerkt door langdurige ontsteking van synoviale gewrichten. Door deze chronische ontsteking ontstaat uiteindelijk schade aan kraakbeen en botweefsel, wat kan leiden tot pijn, stijfheid en verlies van gewrichtsfunctie. Binnen het synovium spelen verschillende immuuncellen, waaronder neutrofielen, macrofagen, T-cellen en B-cellen, een belangrijke rol bij het onderhouden van de inflammatoire respons (Wright et al., 2021).
 
-Vooral chemokines uit de CXC-familie, zoals CXCL1, CXCL8, CXCL10 en CXCL13, worden geassocieerd met verhoogde inflammatie en ziekteprogressie bij RA-patiënten (Murayama et al., 2023). Daarnaast wordt CXCL10 beschreven als potentiële biomarker voor inflammatoire complicaties binnen RA (Makarem et al., 2024).
+Cytokines en chemokines vormen essentiële regulatoren van deze immuunreacties. Vooral chemokines uit de CXC-familie, zoals CXCL1, CXCL8, CXCL10 en CXCL13, zijn sterk betrokken bij immuuncelrekrutering en inflammatie binnen RA-weefsel. Deze chemokines binden aan receptoren zoals CXCR1, CXCR2, CXCR3 en CXCR5, waardoor immuuncellen naar ontstoken gewrichten worden aangetrokken. Verhoogde expressie van deze pathways wordt geassocieerd met chronische inflammatie en ziekteprogressie bij RA-patiënten (Murayama et al., 2023). Daarnaast wordt CXCL10 beschreven als potentiële biomarker voor inflammatoire complicaties binnen RA (Makarem et al., 2024).
 
-In dit onderzoek werd RNA-seq analyse uitgevoerd op publieke datasets van Platzer et al. (2019) om differentieel geëxpresseerde genen en verrijkte pathways binnen RA te identificeren. Hierbij lag de focus op chemokine- en cytokinesignalering.
+RNA-sequencing (RNA-seq) maakt het mogelijk om genexpressie op grote schaal te analyseren en verschillen tussen gezonde en zieke weefsels te identificeren. Met behulp van differential expression analyse kunnen genen en pathways worden opgespoord die betrokken zijn bij ziekteprocessen. In dit onderzoek werd RNA-seq analyse uitgevoerd op publieke datasets van Platzer et al. (2019) om differentieel geëxpresseerde genen en verrijkte pathways binnen RA te identificeren. Hierbij lag de focus op chemokine- en cytokinesignalering.
 
 ## Materialen en Methoden
 
-Publieke RNA-seq datasets van gezonde controles en RA-patiënten afkomstig uit Platzer et al. (2019) werden gebruikt. De paired-end FASTQ bestanden werden uitgelijnd tegen het humane referentiegenoom GRCh38 met Rsubread. Vervolgens werd met featureCounts een count matrix gegenereerd.
+Publieke RNA-seq datasets van gezonde controles en RA-patiënten afkomstig uit Platzer et al. (2019) werden gebruikt. De paired-end FASTQ bestanden werden uitgelijnd tegen het humane referentiegenoom GRCh38 met behulp van het R-package Rsubread. Vervolgens werd met featureCounts een count matrix gegenereerd op basis van een GTF-annotatiebestand.
 
-Differential expression analyse werd uitgevoerd met DESeq2. Genen werden als significant beschouwd bij een adjusted p-value < 0.05 en |log2FoldChange| > 1. GO enrichment analyse en KEGG pathway analyse werden uitgevoerd met goseq. Significante pathways werden gevisualiseerd met Pathview.
+Differential expression analyse werd uitgevoerd met DESeq2. Genen werden als significant beschouwd bij een adjusted p-value < 0.05 en een absolute log2FoldChange > 1. De resultaten werden gevisualiseerd met een volcano plot.
+
+Om biologische processen en pathways te identificeren werd GO enrichment analyse uitgevoerd met goseq. Daarnaast werd KEGG pathway analyse gebruikt om verrijkte inflammatoire pathways te identificeren. Significante pathways werden vervolgens gevisualiseerd met Pathview, waarbij verhoogde expressie in rood en verlaagde expressie in groen werd weergegeven.
 
 ## Resultaten
 
@@ -25,7 +26,7 @@ De differential expression analyse liet een groot aantal significant differentie
 
 *Figuur 1. Volcano plot van differentieel geëxpresseerde genen tussen reumatoïde artritis samples en gezonde controles.*
 
-GO enrichment analyse toonde sterke verrijking van immuun- en ontstekingsgerelateerde processen, waaronder cytokinesignalering, leukocytactivatie en immuuncelmigratie.
+GO enrichment analyse toonde sterke verrijking van immuun- en ontstekingsgerelateerde processen, waaronder cytokinesignalering, leukocytactivatie, immuuncelmigratie en inflammatoire responsen. Deze resultaten suggereren verhoogde activatie van pathways die betrokken zijn bij chronische inflammatie binnen RA-weefsel.
 
 <p align="center">
   <img src="Afbeeldingen/Rplot.png" width="700">
@@ -56,6 +57,7 @@ Deze resultaten wijzen op sterke activatie van chemokine-gemedieerde immuuncelre
 ## Conclusie
 
 De transcriptomische analyse liet sterke activatie zien van immuun- en ontstekingsgerelateerde pathways bij reumatoïde artritis. Vooral chemokines uit de CXC-familie en hun receptoren waren sterk upgereguleerd. De resultaten suggereren dat chemokine-gemedieerde immuuncelrekrutering een centrale rol speelt binnen de pathogenese van RA en mogelijk relevante therapeutische targets vormt.
+
 
 
 # Bronnen
