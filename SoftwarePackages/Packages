@@ -1,0 +1,22 @@
+## Gebruikte software en packages
+
+| Software/Package | Versie | Functie |
+|-----------------|---------|----------|
+| R | 4.4.1 | Programmeertaal voor data-analyse |
+| RStudio | 2024.09.0 | Ontwikkelomgeving voor R |
+| Git | 2.45 | Versiebeheer |
+| GitHub | Web platform | Opslag en delen van scripts |
+| Rsubread | 2.20.0 | Read alignment en feature counting |
+| Rsamtools | 2.22.0 | Sorteren en indexeren van BAM-bestanden |
+| DESeq2 | 1.46.0 | Differential expression analyse |
+| KEGGREST | 1.46.0 | Toegang tot KEGG databases |
+| EnhancedVolcano | 1.24.0 | Volcano plot visualisatie |
+| pathview | 1.46.0 | KEGG pathway visualisatie |
+| goseq | 1.58.0 | GO- en KEGG enrichment analyse |
+| org.Hs.eg.db | 3.20.0 | Humane genannotaties |
+| GenomicFeatures | 1.58.0 | Berekenen van genlengtes |
+| txdbmaker | 1.2.0 | Aanmaken van transcript databases |
+| GenomicRanges | 1.58.0 | Werken met genomische regio's |
+| ggplot2 | 3.5.1 | Grafieken en visualisaties |
+| geneLenDataBase | 1.42.0 | Genlengtecorrectie voor GO analyse |
+| clusterProfiler | 4.14.0 | Functionele verrijkingsanalyse |
