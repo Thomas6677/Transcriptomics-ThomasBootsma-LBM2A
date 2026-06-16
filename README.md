@@ -10,21 +10,21 @@ RNA-sequencing (RNA-seq) maakt het mogelijk om genexpressie op grote schaal te a
 
 ## Materialen en Methoden
 
-Publieke RNA-seq datasets van gezonde controles en RA-patiënten afkomstig uit Platzer et al. (2019) werden gebruikt. De paired-end FASTQ bestanden werden uitgelijnd tegen het humane referentiegenoom GRCh38 met behulp van het R-package Rsubread. Vervolgens werd met featureCounts een count matrix gegenereerd op basis van een GTF-annotatiebestand.
+Publieke RNA-seq datasets van gezonde controles en RA-patiënten afkomstig uit Platzer et al. (2019) werden gebruikt. De paired-end FASTQ bestanden werden uitgelijnd tegen het humane referentiegenoom GRCh38 met behulp van het R-package Rsubread(2.20.0). Vervolgens werd met featureCounts een count matrix gegenereerd op basis van een GTF-annotatiebestand.
 
-Differential expression analyse werd uitgevoerd met DESeq2. Genen werden als significant beschouwd bij een adjusted p-value < 0.05 en een absolute log2FoldChange > 1. De resultaten werden gevisualiseerd met een volcano plot.
+Differential expression analyse werd uitgevoerd met DESeq2(1.46.0). Genen werden als significant beschouwd bij een adjusted p-value < 0.05 en een absolute log2FoldChange > 1. De resultaten werden gevisualiseerd met een volcano plot.
 
-Om biologische processen en pathways te identificeren werd GO enrichment analyse uitgevoerd met goseq. Daarnaast werd KEGG pathway analyse gebruikt om verrijkte inflammatoire pathways te identificeren. Significante pathways werden vervolgens gevisualiseerd met Pathview, waarbij verhoogde expressie in rood en verlaagde expressie in groen werd weergegeven.
+Om biologische processen en pathways te identificeren werd GO enrichment analyse uitgevoerd met goseq(1.58.0). Daarnaast werd KEGG pathway analyse gebruikt om verrijkte inflammatoire pathways te identificeren. Significante pathways werden vervolgens gevisualiseerd met Pathview(1.46.0). Om te visualiseren wat er gedaan is, is er een flowschema gemaakt. Ook zijn de scripts te vinden in de github, en de bijpasende en gebruikte packeges.
 
 ## Resultaten
 
-De differential expression analyse liet een groot aantal significant differentieel geëxpresseerde genen zien tussen RA-samples en gezonde controles.
+De differential expression analyse liet een groot aantal significant differentieel geëxpresseerde genen zien tussen RA-samples en gezonde controles. Met vooral upregulation van genen in RA vergeleken met normale samples
 
 <p align="center">
   <img src="Afbeeldingen/VolcanoplotTRANSCRIPTT.png" width="700">
 </p>
 
-*Figuur 1. Volcano plot van differentieel geëxpresseerde genen tussen reumatoïde artritis samples en gezonde controles.*
+*Figuur 1. Volcano plot van differentieel geëxpresseerde genen tussen reumatoïde artritis samples en gezonde controles. De rode punten zijn statisctisch verschillend tussen de 2 groepn. Met op de x-as de LOG FOLD Change, en op de y-as de p-Waarde*
 
 GO enrichment analyse toonde sterke verrijking van immuun- en ontstekingsgerelateerde processen, waaronder cytokinesignalering, leukocytactivatie, immuuncelmigratie en inflammatoire responsen. Deze resultaten suggereren verhoogde activatie van pathways die betrokken zijn bij chronische inflammatie binnen RA-weefsel.
 
