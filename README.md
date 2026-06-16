@@ -14,7 +14,7 @@ Publieke RNA-seq datasets van gezonde controles en RA-patiënten afkomstig uit P
 
 Differential expression analyse werd uitgevoerd met DESeq2(1.46.0). Genen werden als significant beschouwd bij een adjusted p-value < 0.05 en een absolute log2FoldChange > 1. De resultaten werden gevisualiseerd met een volcano plot.
 
-Om biologische processen en pathways te identificeren werd GO enrichment analyse uitgevoerd met goseq(1.58.0). Daarnaast werd KEGG pathway analyse gebruikt om verrijkte inflammatoire pathways te identificeren. Significante pathways werden vervolgens gevisualiseerd met Pathview(1.46.0), waarbij verhoogde expressie in rood en verlaagde expressie in groen werd weergegeven.
+Om biologische processen en pathways te identificeren werd GO enrichment analyse uitgevoerd met goseq(1.58.0). Daarnaast werd KEGG pathway analyse gebruikt om verrijkte inflammatoire pathways te identificeren. Significante pathways werden vervolgens gevisualiseerd met Pathview(1.46.0). Om te visualiseren wat er gedaan is, is er een flowschema gemaakt. Ook zijn de scripts te vinden in de github, en de bijpasende en gebruikte packeges.
 
 ## Resultaten
 
