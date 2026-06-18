@@ -18,13 +18,13 @@ Om biologische processen en pathways te identificeren werd GO enrichment analyse
 
 ## Resultaten
 
-De differential expression analyse liet een groot aantal significant differentieel geëxpresseerde genen zien tussen RA-samples en gezonde controles. Met vooral upregulation van genen in RA vergeleken met normale samples
+De differential expression analyse liet een groot aantal significant differentieel geëxpresseerde genen zien tussen RA-samples en gezonde controles. Met vooral downgulation van genen in RA vergeleken met normale samples
 
 <p align="center">
   <img src="Afbeeldingen/VolcanoplotTRANSCRIPTT.png" width="700">
 </p>
 
-*Figuur 1. Volcano plot van differentieel geëxpresseerde genen tussen reumatoïde artritis samples en gezonde controles. De rode punten zijn statisctisch verschillend tussen de 2 groepn. Met op de x-as de LOG FOLD Change, en op de y-as de p-Waarde*
+*Figuur 1. Volcano plot van differentieel geëxpresseerde genen tussen reumatoïde artritis samples en gezonde controles. De rode punten zijn statisctisch verschillend tussen de 2 groepen. Met op de x-as de LOG FOLD Change, en op de y-as de p-Waarde*
 
 GO enrichment analyse toonde sterke verrijking van immuun- en ontstekingsgerelateerde processen, waaronder cytokinesignalering, leukocytactivatie, immuuncelmigratie en inflammatoire responsen. Deze resultaten suggereren verhoogde activatie van pathways die betrokken zijn bij chronische inflammatie binnen RA-weefsel.
 
