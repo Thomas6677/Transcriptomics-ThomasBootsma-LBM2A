@@ -52,7 +52,7 @@ Deze resultaten wijzen op sterke activatie van chemokine-gemedieerde immuuncelre
   <img src="Afbeeldingen/hsa04060.pathview.png" width="900">
 </p>
 
-*Figuur 4. KEGG Cytokine-cytokine receptor interaction pathway met verhoogde expressie van meerdere chemokines en chemokinereceptoren.*
+*Figuur 4. KEGG Cytokine-cytokine receptor interaction pathway met verhoogde expressie van meerdere chemokines en chemokinereceptoren. Rood geeft verhoogde genexpressie weer en groen verlaagde genexpressie.*
 
 ## Conclusie
 
