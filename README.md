@@ -23,7 +23,7 @@ Voor de GO-enrichmentanalyse werd goseq versie 1.58.0 gebruikt (Young et al., 20
 
 Voor de KEGG-analyse werden KEGGREST versie 1.46.0 en Pathview versie 1.46.0 gebruikt. Pathview werd gebruikt om genexpressieveranderingen op KEGG-pathwaykaarten te visualiseren (Luo & Brouwer, 2013). De onderzochte pathways waren Rheumatoid arthritis (hsa05323), Cytokine-cytokine receptor interaction (hsa04060) en Toll-like receptor signaling pathway (hsa04620).
 
-Een overzicht van de uitgevoerde analysemethode is weergegeven in het flowschema in Bijlage 1. De volledige scripts en gebruikte packages zijn opgenomen in de GitHub-repository.
+Een overzicht van de uitgevoerde analysemethode is weergegeven in het flowschema in Bijlage 1 en 2. De volledige scripts en gebruikte packages zijn opgenomen in de GitHub-repository.
 
 ## Resultaten
 
