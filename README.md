@@ -103,3 +103,14 @@ Platzer, A., Nussbaumer, T., Karonitsch, T., Smolen, J. S., & Aletaha, D. (2019)
 Elemam, N. M., Hannawi, S., & Maghazachi, A. A. (2020). Role of Chemokines and Chemokine Receptors in Rheumatoid Arthritis. ImmunoTargets and therapy, 9, 43–56. https://doi.org/10.2147/ITT.S243636
 
 AI is gebruikt voor een grammaticale spellings controle
+
+# Bijlage
+Bijlage 1
+<p align="center">
+  <img src="Flowschemas/Flowchart_Materialen_Methode_RA.png" width="700">
+</p>
+
+Bijlage 2
+<p align="center">
+  <img src="Flowschemas/Flowchart_Platzer_Dataset.png" width="700">
+</p>
