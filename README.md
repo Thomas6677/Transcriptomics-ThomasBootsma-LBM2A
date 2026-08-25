@@ -107,7 +107,7 @@ AI is gebruikt voor een grammaticale spellings controle
 # Bijlage
 Bijlage 1
 <p align="center">
-  <img src="Flowschemas/Flowchart_Materialen_Methode_RA.png" width="700">
+  <img src="Flowschemas/Flowchart_Materialen_Methoden_RA.png" width="700">
 </p>
 
 Bijlage 2
