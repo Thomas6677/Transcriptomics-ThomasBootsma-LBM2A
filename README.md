@@ -105,12 +105,12 @@ Elemam, N. M., Hannawi, S., & Maghazachi, A. A. (2020). Role of Chemokines and C
 AI is gebruikt voor een grammaticale spellings controle
 
 # Bijlage
-Bijlage 1
+Bijlage 1: Flowschema van de materiaal en methode
 <p align="center">
   <img src="Flowschemas/Flowchart_Materialen_Methoden_RA.png" width="700">
 </p>
 
-Bijlage 2
+Bijlage 2: Flowschema van de materiaal en methode, van de monsters van de controle en rheuma personen
 <p align="center">
   <img src="Flowschemas/Flowchart_Platzer_Dataset.png" width="700">
 </p>
