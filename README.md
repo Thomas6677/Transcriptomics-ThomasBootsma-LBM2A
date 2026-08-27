@@ -27,41 +27,37 @@ Een overzicht van de uitgevoerde analysemethode is weergegeven in het flowschema
 
 ## Resultaten
 
-De differential expression analyse liet een groot aantal significant differentieel geëxpresseerde genen zien tussen RA-samples en gezonde controles. Met vooral downgulation van genen in RA vergeleken met normale samples
+# Differential expression analyse
 
-<p align="center">
-  <img src="Afbeeldingen/VolcanoplotTRANSCRIPTT.png" width="700">
-</p>
+Het doel van de analyse was om verschillen in genexpressie tussen RA en gezonde controles te identificeren. Hiervoor werd met DESeq2 een differential expression analyse uitgevoerd op vier RA-samples en vier gezonde controles. Genen werden als differentieel geëxpresseerd beschouwd wanneer de adjusted p_value < 0,05 en de absolute log2FoldChange > 1 was.
 
-*Figuur 1. Volcano plot van differentieel geëxpresseerde genen tussen reumatoïde artritis samples en gezonde controles. De rode punten zijn statisctisch verschillend tussen de 2 groepen. Met op de x-as de LOG FOLD Change, en op de y-as de p-Waarde*
+In totaal werden 2.085 genen upgereguleerd en 2.487 genen downregulated in de RA-groep ten opzichte van de gezonde controles. De differentieel geëxpresseerde genen zijn weergegeven in de volcano plot (Figuur 1). Genen met een log2FoldChange > 1 waren verhoogd geëxpresseerd, terwijl genen met een log2FoldChange < -1 verlaagd geëxpresseerd waren.
 
-GO enrichment analyse toonde sterke verrijking van immuun- en ontstekingsgerelateerde processen, waaronder cytokinesignalering, leukocytactivatie, immuuncelmigratie en inflammatoire responsen. Deze resultaten suggereren verhoogde activatie van pathways die betrokken zijn bij chronische inflammatie binnen RA-weefsel.
+![Volcano plot](Afbeeldingen/VolcanoplotTRANSCRIPTT.png)
 
-<p align="center">
-  <img src="Afbeeldingen/Rplot.png" width="700">
-</p>
+*Figuur 1. Volcano plot van de differentiële genexpressie tussen RA-samples en gezonde controles. De x-as toont de log2FoldChange en de y-as de adjusted p-value. Genen met een adjusted p-value < 0,05 en |log2FoldChange| > 1 werden als differentieel geëxpresseerd beschouwd.*
 
-*Figuur 2. Visualisatie van de GO enrichment analyse. Grotere stippen vertegenwoordigen processen waarin meer genen betrokken zijn. Donkerdere kleuren geven een hogere significantie weer.*
+# GO-enrichmentanalyse
 
-KEGG analyse identificeerde meerdere significant verrijkte pathways, waaronder de Rheumatoid Arthritis pathway (hsa05323), de Cytokine-cytokine receptor interaction pathway (hsa04060) en de Toll-like receptor signaling pathway (hsa04620).
+Om te bepalen welke biologische processen betrokken waren bij de gevonden genexpressieveranderingen, werd een GO-enrichmentanalyse met goseq uitgevoerd. Hierbij werd rekening gehouden met verschillen in genlengte. De analyse liet vooral verrijking zien van immuun- en ontstekingsgerelateerde processen, waaronder processen gerelateerd aan leukocytactivatie, immuunrespons en immuuncelmigratie (Figuur 2).
 
-Binnen de Rheumatoid Arthritis pathway werd verhoogde expressie gevonden van meerdere inflammatoire cytokines, chemokines en immuunreceptoren die betrokken zijn bij synoviale ontsteking en gewrichtsschade.
+![GO enrichment analyse](Afbeeldingen/Rplot.png)
 
-<p align="center">
-  <img src="Afbeeldingen/hsa05323.pathview.png" width="900">
-</p>
+*Figuur 2. GO-enrichmentanalyse van de differentieel geëxpresseerde genen. De grootte van de punten geeft het aantal genen binnen een GO-term weer en de kleur geeft de significantie van de verrijking weer.*
 
-*Figuur 3. KEGG Rheumatoid Arthritis pathway. Rood geeft verhoogde genexpressie weer en groen verlaagde genexpressie.*
+# KEGG-pathwayanalyse
 
-Binnen de cytokine-cytokine receptor interaction pathway werd sterke upregulatie gevonden van meerdere chemokines uit de CXC-familie, waaronder CXCL1, CXCL2, CXCL5, CXCL8, CXCL10 en CXCL13. Daarnaast werden verhoogde expressieniveaus gevonden van de receptoren CXCR1, CXCR2, CXCR3 en CXCR5.
+Om de gevonden genexpressieveranderingen verder te onderzoeken, werd een KEGG-pathwayanalyse uitgevoerd. Hierbij werden de pathways Rheumatoid arthritis (hsa05323), Cytokine-cytokine receptor interaction (hsa04060) en Toll-like receptor signaling pathway (hsa04620) onderzocht.
 
-Deze resultaten wijzen op sterke activatie van chemokine-gemedieerde immuuncelrekrutering binnen RA-weefsel. Vooral de CXCL8–CXCR2 signaling as suggereert verhoogde neutrofielmigratie, terwijl CXCL13–CXCR5 betrokken lijkt bij B-celrekrutering en chronische inflammatie.
+Binnen de Rheumatoid arthritis pathway werden verschillende genen gevonden die betrokken zijn bij immuun- en ontstekingsprocessen (Figuur 3). Binnen de Cytokine-cytokine receptor interaction pathway werden onder andere CXCL1, CXCL2, CXCL5, CXCL8, CXCL10 en CXCL13 en de receptoren CXCR1, CXCR2, CXCR3 en CXCR5 gevonden (Figuur 4). Deze genen zijn betrokken bij chemokinesignalering en immuuncelrekrutering.
 
-<p align="center">
-  <img src="Afbeeldingen/hsa04060.pathview.png" width="900">
-</p>
+![KEGG Rheumatoid Arthritis pathway](Afbeeldingen/hsa05323.pathview.png)
 
-*Figuur 4. KEGG Cytokine-cytokine receptor interaction pathway met verhoogde expressie van meerdere chemokines en chemokinereceptoren. Rood geeft verhoogde genexpressie weer en groen verlaagde genexpressie.*
+*Figuur 3. KEGG Rheumatoid arthritis pathway (hsa05323). Rood geeft een hogere en groen een lagere genexpressie weer.*
+
+![KEGG Cytokine-cytokine receptor interaction pathway](Afbeeldingen/hsa04060.pathview.png)
+
+*Figuur 4. KEGG Cytokine-cytokine receptor interaction pathway (hsa04060). Rood geeft een hogere en groen een lagere genexpressie weer.*
 
 ## Conclusie
 
